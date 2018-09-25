@@ -8,28 +8,11 @@ body {
   z-index: -5;
 }
 
-p {
+p, #selecter, #cellsize * {
   display: inline;
-}
-
-#cellsize * {
-  display: inline;
-}
-
-#mode {
-  background-color: #909090;
 }
 
 #mode *, #reset * , #cellsize *{
   margin: 3px 5px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#selecter {
-  display: inline;
-  background-color: chocolate;
-}
-
-#reset {
-  background-color: #e02070;
 }
